@@ -1,5 +1,4 @@
 import React from "react"
-import { render } from "react-dom" 
 import { Router } from '@reach/router'
 import SearchParams from "./SearchParams"
 import Details from "./Details"
@@ -16,5 +15,4 @@ return (
     </div>
 )
 };
-
-render(<App />, document.getElementById("root"));
+export default App 
