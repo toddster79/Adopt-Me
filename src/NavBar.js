@@ -14,7 +14,7 @@ const NavBar = () => (
         <span css={css` 
         font-size: 60px;  
         `}
-        role="img" aria-label="logo">🐶</span>
+        ></span>
     </header>
 ) 
 
