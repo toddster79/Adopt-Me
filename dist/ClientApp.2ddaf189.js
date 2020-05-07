@@ -34990,10 +34990,8 @@ const NavBar = () => (0, _core.jsx)("header", {
 }, (0, _core.jsx)(_router.Link, {
   to: "/"
 }, "Adopt Me!"), (0, _core.jsx)("span", {
-  css: _ref2,
-  role: "img",
-  "aria-label": "logo"
-}, "\uD83D\uDC36"));
+  css: _ref2
+}));
 
 var _default = NavBar;
 exports.default = _default;
@@ -35072,7 +35070,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "60977" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "64127" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
